@@ -1,0 +1,757 @@
+FIGU - SPLITS 10 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 230.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 230.5 ∧ name_email_similarity <= 0.2900026738643646
+Test Recall: 0.10595396770120319
+FIGU - SPLITS 10 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35952234268188477
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35952234268188477 ∧ credit_risk_score > 256.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+Test Recall: 0.10418632897821471
+FIGU - SPLITS 10 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ date_of_birth_distinct_emails_4w > 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ payment_type_AC > 0.5
+Test Recall: 0.1303706428163241
+FIGU - SPLITS 10 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score > 256.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+Test Recall: 0.0969423210562891
+FIGU - SPLITS 10 - 4
+conds: housing_status_BA > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3462797701358795
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+Test Recall: 0.12817123002084782
+FIGU - SPLITS 20 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity <= 0.2082037702202797
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity > 0.2082037702202797 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2291099727153778 ∧ bank_branch_count_8w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w > 2.5 ∧ name_email_similarity <= 0.22521890699863434
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity > 0.2082037702202797 ∧ proposed_credit_limit <= 1250.0
+Test Recall: 0.13506595296152682
+FIGU - SPLITS 20 - 1
+conds: housing_status_BA > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 238.5 ∧ prev_address_months_count <= 3.5 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355
+conds: housing_status_BA > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 238.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3283371776342392
+Test Recall: 0.1438498957609451
+FIGU - SPLITS 20 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3573122024536133 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3573122024536133 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score > 247.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3573122024536133 ∧ bank_branch_count_8w > 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3573122024536133 ∧ bank_branch_count_8w > 2.5 ∧ credit_risk_score > 269.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3573122024536133 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score <= 247.5
+Test Recall: 0.13450981369458498
+FIGU - SPLITS 20 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 232.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score <= 232.5 ∧ name_email_similarity <= 0.2141840159893036
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ payment_type_AC > 0.5 ∧ name_email_similarity <= 0.32468007504940033
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 266.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score <= 232.5 ∧ name_email_similarity > 0.2141840159893036
+Test Recall: 0.15245257054333405
+FIGU - SPLITS 20 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.3721940666437149
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.3721940666437149 ∧ credit_risk_score > 242.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 254.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 50.5 ∧ email_is_free > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.3721940666437149 ∧ credit_risk_score <= 242.5
+Test Recall: 0.1646977067407922
+FIGU - SPLITS 30 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35995782911777496 ∧ credit_risk_score > 198.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35995782911777496 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35995782911777496 ∧ credit_risk_score <= 198.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ email_is_free > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 6.5 ∧ name_email_similarity <= 0.36854763329029083
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ bank_branch_count_8w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35995782911777496 ∧ credit_risk_score <= 247.5 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.13759555246699096
+FIGU - SPLITS 30 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity <= 0.24910835921764374 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity > 0.24910835921764374 ∧ credit_risk_score > 266.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity <= 0.24910835921764374 ∧ bank_branch_count_8w > 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.2288428470492363 ∧ bank_branch_count_8w <= 6.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity > 0.24910835921764374 ∧ credit_risk_score <= 266.5 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.14251231229416564
+FIGU - SPLITS 30 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.3347475677728653 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.3347475677728653 ∧ credit_risk_score > 247.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.3347475677728653 ∧ bank_branch_count_8w > 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.2252584993839264 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 41.5 ∧ payment_type_AC > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 273.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score <= 273.5 ∧ bank_branch_count_8w <= 3.5
+Test Recall: 0.1580958999305073
+FIGU - SPLITS 30 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.249900721013546
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22373662889003754 ∧ current_address_months_count > 42.5 ∧ proposed_credit_limit > 505.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+Test Recall: 0.09391473560983071
+FIGU - SPLITS 30 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3284089118242264 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3284089118242264 ∧ credit_risk_score > 247.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ bank_branch_count_8w <= 1.5 ∧ name_email_similarity <= 0.22261957824230194
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3284089118242264 ∧ phone_home_valid > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 266.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3284089118242264 ∧ credit_risk_score <= 247.5 ∧ income > 0.75
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ name_email_similarity <= 0.2167249619960785 ∧ prev_address_months_count <= 8.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 505.0
+Test Recall: 0.16539263377345378
+FIGU - SPLITS 40 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22362800687551498 ∧ current_address_months_count > 41.5 ∧ payment_type_AC > 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+Test Recall: 0.08808932936014652
+FIGU - SPLITS 40 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 266.5 ∧ bank_branch_count_8w <= 8.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 266.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.3970045894384384 ∧ zip_count_4w > 1329.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 266.5 ∧ bank_branch_count_8w > 8.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 266.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.3970045894384384 ∧ zip_count_4w <= 1329.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.22924381494522095 ∧ bank_branch_count_8w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 266.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.3970045894384384 ∧ income > 0.75
+Test Recall: 0.11848505906879778
+FIGU - SPLITS 40 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.32850679755210876
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22358423471450806 ∧ current_address_months_count > 41.5 ∧ income > 0.75
+Test Recall: 0.08850395831871698
+FIGU - SPLITS 40 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ income > 0.75 ∧ credit_risk_score > 229.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ income > 0.75 ∧ credit_risk_score <= 229.5 ∧ name_email_similarity <= 0.20824626833200455
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ income <= 0.75 ∧ name_email_similarity <= 0.24903570115566254
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ email_is_free > 0.5 ∧ credit_risk_score > 206.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ income > 0.75 ∧ credit_risk_score <= 229.5 ∧ name_email_similarity > 0.20824626833200455
+Test Recall: 0.14697706740792216
+FIGU - SPLITS 40 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3625168800354004 ∧ credit_risk_score > 229.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3625168800354004 ∧ credit_risk_score > 251.5 ∧ income > 0.8499999940395355
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3625168800354004 ∧ credit_risk_score <= 229.5 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3625168800354004 ∧ credit_risk_score <= 229.5 ∧ bank_branch_count_8w > 2.5 ∧ customer_age > 45.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.19682513922452927 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 52.5 ∧ bank_branch_count_8w <= 6.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3625168800354004 ∧ credit_risk_score <= 251.5 ∧ keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3625168800354004 ∧ credit_risk_score > 251.5 ∧ income <= 0.8499999940395355
+Test Recall: 0.1626129256428075
+FIGU - SPLITS 50 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35567954182624817 ∧ credit_risk_score > 226.5 ∧ date_of_birth_distinct_emails_4w <= 5.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35567954182624817 ∧ credit_risk_score > 226.5 ∧ date_of_birth_distinct_emails_4w > 5.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35567954182624817 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35567954182624817 ∧ credit_risk_score <= 226.5 ∧ customer_age > 45.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.32976043224334717 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35567954182624817 ∧ credit_risk_score <= 226.5 ∧ customer_age <= 45.0 ∧ bank_branch_count_8w <= 7.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35567954182624817 ∧ credit_risk_score <= 247.5 ∧ bank_branch_count_8w <= 3.5 ∧ income > 0.75
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22368746995925903 ∧ current_address_months_count > 42.5 ∧ payment_type_AC > 0.5
+Test Recall: 0.13938302565187177
+FIGU - SPLITS 50 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3545426279306412
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ phone_home_valid <= 0.5
+Test Recall: 0.08852322943070626
+FIGU - SPLITS 50 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.334980309009552
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2338939979672432 ∧ current_address_months_count > 42.5 ∧ proposed_credit_limit > 505.0
+Test Recall: 0.08804677412857156
+FIGU - SPLITS 50 - 3
+conds: housing_status_BA > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3284028321504593
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ bank_branch_count_8w <= 3.5
+Test Recall: 0.12811801292835834
+FIGU - SPLITS 50 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3573122024536133 ∧ credit_risk_score > 198.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3573122024536133 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3573122024536133 ∧ credit_risk_score <= 198.5 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3573122024536133 ∧ credit_risk_score > 198.5 ∧ keep_alive_session > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ payment_type_AC > 0.5 ∧ email_is_free > 0.5 ∧ device_os_linux <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3573122024536133 ∧ credit_risk_score <= 247.5 ∧ phone_home_valid <= 0.5 ∧ income > 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3573122024536133 ∧ credit_risk_score > 247.5 ∧ keep_alive_session > 0.5
+Test Recall: 0.15059741520039804
+FIGS - SPLITS 10 - 0
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.32850679755210876
+Test Recall: 0.11881708593225819
+FIGS - SPLITS 10 - 1
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2955917716026306
+Test Recall: 0.11924029563313887
+FIGS - SPLITS 10 - 2
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.26586875319480896
+conds: phone_home_valid <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ credit_risk_score > 266.5
+Test Recall: 0.11963330270371193
+FIGS - SPLITS 10 - 3
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22494394332170486
+conds: phone_home_valid <= 0.5 ∧ credit_risk_score > 266.5
+Test Recall: 0.12056727512197607
+FIGS - SPLITS 10 - 4
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2490803375840187
+conds: phone_home_valid <= 0.5 ∧ credit_risk_score > 266.5
+Test Recall: 0.12020135926066408
+FIGS - SPLITS 20 - 0
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.35719530284404755 ∧ intended_balcon_amount <= 15.730640411376953
+conds: keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ housing_status_BA > 0.5 ∧ email_is_free > 0.5
+Test Recall: 0.12021061878469594
+FIGS - SPLITS 20 - 1
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 40.5 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33461473882198334 ∧ has_other_cards <= 0.5
+Test Recall: 0.1282520974870412
+FIGS - SPLITS 20 - 2
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 231.5 ∧ date_of_birth_distinct_emails_4w <= 4.5
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3572501093149185
+Test Recall: 0.15427380125086865
+FIGS - SPLITS 20 - 3
+conds: proposed_credit_limit > 1700.0
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 229.5 ∧ date_of_birth_distinct_emails_4w <= 4.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w > 2.5
+Test Recall: 0.15462126476719945
+FIGS - SPLITS 20 - 4
+conds: proposed_credit_limit > 1700.0
+conds: device_distinct_emails_8w > 1.5 ∧ housing_status_BA > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.32834476232528687
+Test Recall: 0.13090058440873245
+FIGS - SPLITS 30 - 0
+conds: has_other_cards <= 0.5 ∧ credit_risk_score > 265.5 ∧ date_of_birth_distinct_emails_4w <= 1.5
+conds: phone_home_valid <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w <= 1.5 ∧ device_os_windows > 0.5
+conds: proposed_credit_limit > 1700.0
+conds: device_distinct_emails_8w > 1.5 ∧ housing_status_BA > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3627428859472275 ∧ intended_balcon_amount <= 12.371122360229492
+Test Recall: 0.12533251723169214
+FIGS - SPLITS 30 - 1
+conds: proposed_credit_limit > 1700.0 ∧ customer_age > 55.0
+conds: date_of_birth_distinct_emails_4w <= 2.5 ∧ credit_risk_score > 343.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3274923264980316 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: proposed_credit_limit > 1700.0 ∧ customer_age <= 55.0 ∧ session_length_in_minutes <= 7.349456310272217
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 40.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w <= 2.5
+conds: keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.0 ∧ bank_branch_count_8w <= 2.5 ∧ housing_status_BA > 0.5 ∧ days_since_request > 0.802094966173172
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3274923264980316 ∧ date_of_birth_distinct_emails_4w > 2.5
+Test Recall: 0.13303263141874236
+FIGS - SPLITS 30 - 2
+conds: prev_address_months_count <= 2.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w > 2.5 ∧ customer_age > 75.0
+conds: device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 192.5 ∧ device_os_windows > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22178007662296295 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.22178007662296295 ∧ bank_branch_count_8w <= 2.5 ∧ session_length_in_minutes > 26.51811408996582
+conds: email_is_free > 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ credit_risk_score > 230.5 ∧ income > 0.6500000059604645
+conds: proposed_credit_limit > 1700.0
+conds: email_is_free <= 0.5 ∧ proposed_credit_limit > 1950.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22178007662296295 ∧ bank_branch_count_8w > 2.5
+Test Recall: 0.12161223071577484
+FIGS - SPLITS 30 - 3
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ credit_risk_score > 247.5 ∧ velocity_4w > 5946.05322265625
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.35576799511909485 ∧ bank_branch_count_8w <= 2.5 ∧ email_is_free > 0.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ credit_risk_score > 247.5 ∧ velocity_4w <= 5946.05322265625
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.35576799511909485 ∧ bank_branch_count_8w <= 2.5 ∧ email_is_free <= 0.5
+conds: email_is_free <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.35576799511909485 ∧ bank_branch_count_8w > 2.5
+Test Recall: 0.18033356497567754
+FIGS - SPLITS 30 - 4
+conds: credit_risk_score > 265.5 ∧ device_os_windows > 0.5 ∧ date_of_birth_distinct_emails_4w <= 1.5
+conds: prev_address_months_count <= 2.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355 ∧ credit_risk_score > 181.5 ∧ email_is_free > 0.5
+conds: device_distinct_emails_8w > 1.5 ∧ housing_status_BA > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22987689077854156 ∧ bank_branch_count_8w <= 4.5
+conds: proposed_credit_limit > 1700.0
+conds: email_is_free <= 0.5 ∧ proposed_credit_limit > 1950.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22987689077854156 ∧ bank_branch_count_8w > 4.5
+Test Recall: 0.14060469272997078
+FIGS - SPLITS 40 - 0
+conds: proposed_credit_limit > 1700.0 ∧ current_address_months_count > 365.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3282833993434906 ∧ intended_balcon_amount <= 11.82315969467163 ∧ proposed_credit_limit > 1250.0 ∧ current_address_months_count <= 135.5 ∧ current_address_months_count > 18.0
+conds: prev_address_months_count <= 6.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 229.5 ∧ employment_status_CB <= 0.5 ∧ days_since_request > 0.4186009168624878
+conds: phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ device_os_windows > 0.5 ∧ income > 0.45000000298023224 ∧ velocity_4w > 5283.32568359375 ∧ intended_balcon_amount <= 18.140986442565918
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3282833993434906 ∧ intended_balcon_amount <= 11.82315969467163 ∧ proposed_credit_limit > 1250.0 ∧ current_address_months_count > 135.5
+conds: proposed_credit_limit > 1700.0 ∧ current_address_months_count <= 365.5
+conds: device_distinct_emails_8w > 1.5 ∧ housing_status_BA > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3282833993434906 ∧ intended_balcon_amount <= 11.82315969467163 ∧ proposed_credit_limit <= 1250.0
+Test Recall: 0.13257056253208827
+FIGS - SPLITS 40 - 1
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 40.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score > 209.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 229.5 ∧ date_of_birth_distinct_emails_4w <= 6.5 ∧ velocity_4w > 5957.807861328125
+conds: proposed_credit_limit > 1700.0 ∧ session_length_in_minutes <= 8.23403787612915
+conds: device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1250.0 ∧ customer_age > 45.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.22816774249076843 ∧ intended_balcon_amount <= 22.927717208862305
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 40.5 ∧ income <= 0.8499999940395355 ∧ velocity_6h <= 495.5724334716797
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 40.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score <= 209.5
+Test Recall: 0.13377971647096215
+FIGS - SPLITS 40 - 2
+conds: prev_address_months_count <= 2.0 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 248.5 ∧ date_of_birth_distinct_emails_4w <= 4.5 ∧ velocity_4w > 5923.88818359375
+conds: proposed_credit_limit > 1700.0 ∧ velocity_4w > 6352.199951171875
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ current_address_months_count <= 135.5 ∧ email_is_free > 0.5 ∧ velocity_4w > 5125.394775390625
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ customer_age > 75.0
+conds: device_distinct_emails_8w > 1.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 995.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ current_address_months_count <= 135.5 ∧ email_is_free > 0.5 ∧ velocity_4w <= 5125.394775390625
+conds: prev_address_months_count <= 2.0 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 248.5 ∧ date_of_birth_distinct_emails_4w <= 4.5 ∧ velocity_4w <= 5923.88818359375
+conds: proposed_credit_limit > 1700.0 ∧ velocity_4w <= 6352.199951171875
+conds: prev_address_months_count <= 2.0 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ credit_risk_score > 248.5 ∧ date_of_birth_distinct_emails_4w > 4.5 ∧ income > 0.75
+conds: name_email_similarity > 0.22492524236440659 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ current_address_months_count > 135.5
+Test Recall: 0.1321838005355026
+FIGS - SPLITS 40 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.29935024678707123 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 10.5 ∧ current_address_months_count <= 277.5
+conds: keep_alive_session <= 0.5 ∧ housing_status_BA > 0.5 ∧ customer_age <= 55.0 ∧ bank_branch_count_8w > 2.5 ∧ bank_months_count > 29.5 ∧ credit_risk_score > 306.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.29935024678707123 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ intended_balcon_amount <= 11.972882270812988 ∧ foreign_request > 0.5
+conds: proposed_credit_limit > 1700.0 ∧ session_length_in_minutes <= 8.497880935668945
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ current_address_months_count > 41.5 ∧ income > 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.29935024678707123 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 10.5 ∧ current_address_months_count > 277.5
+conds: proposed_credit_limit > 1700.0 ∧ session_length_in_minutes > 8.497880935668945
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.29935024678707123 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ intended_balcon_amount <= 11.972882270812988 ∧ foreign_request <= 0.5
+Test Recall: 0.12545965769935055
+FIGS - SPLITS 40 - 4
+conds: keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ housing_status_BA > 0.5 ∧ email_is_free > 0.5 ∧ name_email_similarity <= 0.21604055166244507 ∧ velocity_4w <= 5201.596923828125 ∧ credit_risk_score > 205.5 ∧ velocity_6h <= 8185.423583984375
+conds: keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ housing_status_BA > 0.5 ∧ email_is_free > 0.5 ∧ name_email_similarity <= 0.21604055166244507 ∧ velocity_4w > 5201.596923828125
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3349227011203766 ∧ customer_age > 55.0
+conds: date_of_birth_distinct_emails_4w > 2.5 ∧ proposed_credit_limit > 1700.0 ∧ session_length_in_minutes <= 3.883085608482361
+conds: date_of_birth_distinct_emails_4w <= 2.5 ∧ credit_risk_score > 314.5
+conds: proposed_credit_limit > 1700.0
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ credit_risk_score <= 261.5 ∧ customer_age > 45.0 ∧ customer_age > 75.0
+conds: date_of_birth_distinct_emails_4w > 2.5 ∧ proposed_credit_limit > 1700.0 ∧ session_length_in_minutes > 3.883085608482361
+conds: phone_home_valid <= 0.5 ∧ device_os_windows > 0.5 ∧ credit_risk_score > 261.5
+conds: keep_alive_session <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ housing_status_BA > 0.5 ∧ email_is_free > 0.5 ∧ name_email_similarity <= 0.21604055166244507 ∧ velocity_4w <= 5201.596923828125 ∧ credit_risk_score <= 205.5
+conds: device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1250.0
+Test Recall: 0.1414176511466296
+FIGS - SPLITS 50 - 0
+conds: date_of_birth_distinct_emails_4w <= 2.5 ∧ credit_risk_score > 343.0
+conds: phone_home_valid <= 0.5 ∧ credit_risk_score > 266.5 ∧ current_address_months_count > 44.5 ∧ bank_branch_count_8w <= 0.5 ∧ velocity_4w > 5975.264404296875
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2317197397351265 ∧ bank_branch_count_8w <= 2.5 ∧ velocity_4w > 5095.436279296875
+conds: device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 191.5 ∧ device_os_windows > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2317197397351265 ∧ bank_branch_count_8w <= 2.5 ∧ velocity_4w <= 5095.436279296875
+conds: prev_address_months_count <= 2.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ income > 0.8499999940395355 ∧ housing_status_BA > 0.5 ∧ name_email_similarity <= 0.5484855473041534 ∧ days_since_request <= 0.015224882867187262
+conds: name_email_similarity <= 0.1972876489162445 ∧ current_address_months_count > 42.5 ∧ current_address_months_count <= 143.5 ∧ housing_status_BA > 0.5 ∧ session_length_in_minutes > 19.961111068725586
+conds: prev_address_months_count <= 2.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ income > 0.8499999940395355 ∧ housing_status_BA > 0.5 ∧ name_email_similarity <= 0.5484855473041534 ∧ days_since_request > 0.015224882867187262 ∧ zip_count_4w > 1157.5
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2317197397351265 ∧ bank_branch_count_8w > 2.5 ∧ bank_months_count > 23.0 ∧ bank_branch_count_8w > 713.5
+conds: phone_home_valid <= 0.5 ∧ credit_risk_score > 266.5 ∧ current_address_months_count > 44.5 ∧ bank_branch_count_8w <= 0.5 ∧ velocity_4w <= 5975.264404296875 ∧ zip_count_4w <= 3681.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2317197397351265 ∧ bank_branch_count_8w > 2.5 ∧ bank_months_count > 23.0 ∧ bank_branch_count_8w <= 713.5
+Test Recall: 0.15045170257123003
+FIGS - SPLITS 50 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity > 0.05219945311546326 ∧ income > 0.75 ∧ days_since_request > 11.237507343292236
+conds: has_other_cards <= 0.5 ∧ customer_age > 55.0 ∧ credit_risk_score > 324.5 ∧ velocity_6h > 2952.1837158203125
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity <= 0.05219945311546326 ∧ credit_risk_score > 160.0
+conds: proposed_credit_limit > 1700.0 ∧ velocity_4w <= 6333.322265625 ∧ session_length_in_minutes <= 7.957000970840454 ∧ name_email_similarity > 0.9356592297554016
+conds: proposed_credit_limit > 1700.0 ∧ velocity_4w > 6333.322265625
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity > 0.05219945311546326 ∧ income > 0.75 ∧ days_since_request <= 11.237507343292236
+conds: has_other_cards <= 0.5 ∧ customer_age > 55.0 ∧ credit_risk_score > 324.5 ∧ velocity_6h <= 2952.1837158203125
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 9.5 ∧ name_email_similarity <= 0.05219945311546326 ∧ credit_risk_score <= 160.0
+conds: proposed_credit_limit > 1700.0 ∧ velocity_4w <= 6333.322265625 ∧ session_length_in_minutes <= 7.957000970840454 ∧ name_email_similarity <= 0.9356592297554016
+conds: has_other_cards <= 0.5 ∧ customer_age > 55.0 ∧ credit_risk_score <= 324.5 ∧ housing_status_BA > 0.5 ∧ zip_count_4w > 1976.0
+conds: keep_alive_session <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ bank_branch_count_8w <= 3.5 ∧ device_os_windows > 0.5
+conds: credit_risk_score > 258.5 ∧ session_length_in_minutes > 19.37229633331299
+Test Recall: 0.16817234190410008
+FIGS - SPLITS 50 - 2
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w > 2.5 ∧ customer_age > 75.0
+conds: date_of_birth_distinct_emails_4w <= 2.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 37.5 ∧ velocity_4w > 5942.188232421875 ∧ days_since_request <= 0.0024558284785598516
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2091144695878029 ∧ credit_risk_score > 302.5
+conds: credit_risk_score > 258.5 ∧ device_os_windows > 0.5 ∧ velocity_6h > 8340.341796875 ∧ customer_age > 55.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2091144695878029 ∧ credit_risk_score <= 302.5 ∧ income > 0.6500000059604645 ∧ bank_branch_count_8w <= 2.5 ∧ velocity_4w <= 6703.6240234375
+conds: date_of_birth_distinct_emails_4w > 2.5 ∧ proposed_credit_limit > 1700.0 ∧ session_length_in_minutes <= 8.67015790939331 ∧ foreign_request > 0.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ income > 0.8499999940395355 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score > 205.5
+conds: date_of_birth_distinct_emails_4w > 2.5 ∧ proposed_credit_limit > 1700.0 ∧ session_length_in_minutes <= 8.67015790939331 ∧ foreign_request <= 0.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ income <= 0.8499999940395355 ∧ credit_risk_score > 238.5 ∧ zip_count_4w > 1443.0 ∧ income > 0.550000011920929
+conds: proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2091144695878029 ∧ credit_risk_score <= 302.5 ∧ income > 0.6500000059604645 ∧ bank_branch_count_8w <= 2.5 ∧ velocity_4w > 6703.6240234375
+conds: device_distinct_emails_8w > 1.5 ∧ housing_status_BA > 0.5
+conds: date_of_birth_distinct_emails_4w <= 2.5 ∧ device_os_windows > 0.5 ∧ current_address_months_count > 37.5 ∧ velocity_4w > 5942.188232421875 ∧ days_since_request > 0.0024558284785598516
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2091144695878029 ∧ credit_risk_score <= 302.5 ∧ income <= 0.6500000059604645
+Test Recall: 0.16052814454482278
+FIGS - SPLITS 50 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 17.5 ∧ current_address_months_count <= 108.5 ∧ velocity_6h <= 4956.56201171875
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 17.5 ∧ current_address_months_count > 108.5 ∧ days_since_request > 2.651484489440918
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 17.5 ∧ current_address_months_count <= 108.5 ∧ velocity_6h > 4956.56201171875 ∧ name_email_similarity <= 0.5361605286598206
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 17.5 ∧ current_address_months_count <= 108.5 ∧ velocity_6h > 4956.56201171875 ∧ name_email_similarity > 0.5361605286598206
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ income <= 0.8499999940395355 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ income > 0.8499999940395355 ∧ prev_address_months_count <= 9.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 17.5 ∧ current_address_months_count > 108.5 ∧ days_since_request <= 2.651484489440918
+conds: keep_alive_session <= 0.5 ∧ credit_risk_score > 258.5 ∧ has_other_cards <= 0.5 ∧ current_address_months_count > 43.5 ∧ income > 0.45000000298023224 ∧ velocity_4w <= 4909.70458984375
+conds: keep_alive_session <= 0.5 ∧ credit_risk_score > 258.5 ∧ has_other_cards <= 0.5 ∧ current_address_months_count > 43.5 ∧ income > 0.45000000298023224 ∧ velocity_4w > 4909.70458984375
+conds: proposed_credit_limit > 1700.0
+conds: email_is_free > 0.5 ∧ customer_age > 45.0 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ income > 0.8499999940395355 ∧ credit_risk_score > 205.5
+Test Recall: 0.13963010133935935
+FIGS - SPLITS 50 - 4
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ name_email_similarity <= 0.22990334779024124 ∧ credit_risk_score > 294.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: income > 0.8499999940395355 ∧ current_address_months_count > 38.5 ∧ device_os_windows > 0.5 ∧ intended_balcon_amount <= 20.95544719696045 ∧ current_address_months_count > 113.5 ∧ velocity_24h > 5008.842041015625 ∧ credit_risk_score > 251.5 ∧ bank_branch_count_8w <= 10.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ name_email_similarity <= 0.22990334779024124 ∧ credit_risk_score > 294.5 ∧ date_of_birth_distinct_emails_4w > 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33446553349494934 ∧ bank_branch_count_8w > 3.5 ∧ phone_mobile_valid <= 0.5 ∧ days_since_request <= 0.02315116673707962 ∧ credit_risk_score > 229.0
+conds: phone_home_valid <= 0.5 ∧ customer_age > 45.0 ∧ current_address_months_count > 46.5 ∧ name_email_similarity <= 0.16942451149225235 ∧ payment_type_AC > 0.5
+conds: device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 205.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33446553349494934 ∧ bank_branch_count_8w <= 3.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ name_email_similarity <= 0.22990334779024124 ∧ credit_risk_score <= 294.5 ∧ payment_type_AC > 0.5 ∧ housing_status_BB > 0.5 ∧ velocity_4w > 6564.185302734375
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.33446553349494934 ∧ bank_branch_count_8w <= 2.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: proposed_credit_limit > 1700.0
+conds: income > 0.8499999940395355 ∧ current_address_months_count > 38.5 ∧ device_os_windows > 0.5 ∧ intended_balcon_amount <= 20.95544719696045 ∧ current_address_months_count > 113.5 ∧ velocity_24h > 5008.842041015625 ∧ credit_risk_score > 251.5 ∧ bank_branch_count_8w > 10.5
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ name_email_similarity <= 0.22990334779024124 ∧ credit_risk_score <= 294.5 ∧ payment_type_AC > 0.5 ∧ housing_status_BB <= 0.5 ∧ days_since_request > 1.3518712520599365
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33446553349494934 ∧ bank_branch_count_8w > 3.5 ∧ phone_mobile_valid <= 0.5 ∧ days_since_request <= 0.02315116673707962 ∧ credit_risk_score <= 229.0
+conds: has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ prev_address_months_count <= 2.5 ∧ name_email_similarity > 0.22990334779024124 ∧ credit_risk_score > 247.5
+Test Recall: 0.11686298553799213
+CART - SPLITS 10 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.35573726892471313 ∧ credit_risk_score > 266.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.35573726892471313 ∧ credit_risk_score <= 266.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.35573726892471313 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.10818702321726978
+CART - SPLITS 10 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.36372385919094086
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 255.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.36372385919094086
+Test Recall: 0.14246785404449022
+CART - SPLITS 10 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.20986908674240112
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.20986908674240112 ∧ payment_type_AC > 0.5
+Test Recall: 0.13133749658728766
+CART - SPLITS 10 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.3561030924320221 ∧ has_other_cards <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.3561030924320221 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.13126045983541557
+CART - SPLITS 10 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2593514621257782 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2593514621257782 ∧ bank_branch_count_8w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2593514621257782 ∧ bank_branch_count_8w > 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2593514621257782 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score > 252.5
+Test Recall: 0.1306961224859171
+CART - SPLITS 20 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.20947307348251343 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.20947307348251343 ∧ credit_risk_score > 246.5 ∧ has_other_cards <= 0.5 ∧ bank_months_count <= 0.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.20947307348251343 ∧ credit_risk_score > 246.5 ∧ has_other_cards <= 0.5 ∧ bank_months_count > 0.0 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.20947307348251343 ∧ bank_branch_count_8w > 2.5 ∧ intended_balcon_amount <= 22.531935691833496
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22357317060232162 ∧ credit_risk_score > 250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.20947307348251343 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.20947307348251343 ∧ credit_risk_score > 246.5 ∧ has_other_cards <= 0.5 ∧ bank_months_count > 0.0 ∧ date_of_birth_distinct_emails_4w > 3.5
+Test Recall: 0.14256189781591086
+CART - SPLITS 20 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.23663922399282455 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.32817457616329193 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity > 0.19585831463336945 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.32817457616329193 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.19585831463336945 ∧ phone_home_valid <= 0.5 ∧ payment_type_AC > 0.5 ∧ current_address_months_count > 49.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.32817457616329193 ∧ bank_branch_count_8w > 2.5 ∧ credit_risk_score > 301.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.32817457616329193 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.17998610145934676
+CART - SPLITS 20 - 2
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22367984801530838 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.359461709856987 ∧ current_address_months_count > 27.5 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 26.375754356384277
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2252628281712532 ∧ payment_type_AC > 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.359461709856987 ∧ credit_risk_score > 247.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.359461709856987 ∧ current_address_months_count > 27.5 ∧ keep_alive_session > 0.5
+Test Recall: 0.19006254343293955
+CART - SPLITS 20 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ name_email_similarity > 0.3620818555355072 ∧ credit_risk_score <= 299.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.32225577533245087
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ name_email_similarity <= 0.3620818555355072 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 195.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity > 0.32225577533245087 ∧ current_address_months_count > 38.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity > 0.19586309790611267 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.19586309790611267 ∧ phone_home_valid <= 0.5 ∧ payment_type_AC > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ name_email_similarity > 0.3620818555355072 ∧ credit_risk_score > 299.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ name_email_similarity <= 0.3620818555355072 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 195.5
+Test Recall: 0.13063926468181591
+CART - SPLITS 20 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.3558015823364258 ∧ proposed_credit_limit > 1950.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22364777326583862 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3558015823364258 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 13.01419734954834
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.3558015823364258 ∧ proposed_credit_limit <= 1950.0 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 298.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3558015823364258 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 298.5 ∧ name_email_similarity <= 0.225273959338665 ∧ phone_home_valid <= 0.5
+Test Recall: 0.16886726893676163
+CART - SPLITS 30 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.3385152518749237 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 267.5 ∧ keep_alive_session <= 0.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.31928983330726624 ∧ payment_type_AC > 0.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.3385152518749237 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 267.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.3385152518749237 ∧ bank_branch_count_8w <= 2.5 ∧ current_address_months_count > 36.5 ∧ income > 0.8499999940395355 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.3385152518749237 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.31928983330726624 ∧ credit_risk_score > 307.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.3385152518749237 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 267.5 ∧ keep_alive_session <= 0.5 ∧ device_distinct_emails_8w <= 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 212.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.3385152518749237 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score > 305.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.31928983330726624 ∧ payment_type_AC > 0.5 ∧ device_distinct_emails_8w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.3385152518749237 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 267.5 ∧ keep_alive_session > 0.5
+Test Recall: 0.17016394756778191
+CART - SPLITS 30 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2420361340045929 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 264.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2420361340045929 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2420361340045929 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2420361340045929 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score <= 246.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2420361340045929 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score > 246.5 ∧ payment_type_AC > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ payment_type_AC > 0.5 ∧ name_email_similarity <= 0.29531319439411163
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2420361340045929 ∧ bank_branch_count_8w > 2.5 ∧ current_address_months_count > 27.5 ∧ intended_balcon_amount <= 22.684638023376465
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2420361340045929 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ payment_type_AC <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22368552535772324 ∧ credit_risk_score > 250.5
+Test Recall: 0.16990965948575398
+CART - SPLITS 30 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3285728245973587 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 36.5 ∧ credit_risk_score <= 273.5 ∧ bank_branch_count_8w <= 2.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3285728245973587 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 36.5 ∧ credit_risk_score > 273.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22836846858263016 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3285728245973587 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 36.5 ∧ credit_risk_score <= 273.5 ∧ bank_branch_count_8w <= 2.5 ∧ date_of_birth_distinct_emails_4w > 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.3285728245973587 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.3285728245973587 ∧ proposed_credit_limit <= 1700.0 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3285728245973587 ∧ phone_home_valid > 0.5 ∧ customer_age > 55.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.3285728245973587 ∧ proposed_credit_limit <= 1700.0 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score > 247.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit <= 1700.0 ∧ email_is_free > 0.5 ∧ credit_risk_score > 302.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.3285728245973587 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 36.5 ∧ credit_risk_score <= 273.5 ∧ bank_branch_count_8w > 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.3285728245973587 ∧ proposed_credit_limit <= 1700.0 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score > 305.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit <= 1700.0 ∧ email_is_free > 0.5 ∧ credit_risk_score <= 302.5 ∧ phone_home_valid <= 0.5 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.1535788742182071
+CART - SPLITS 30 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.27992871403694153 ∧ intended_balcon_amount <= 12.495099067687988 ∧ credit_risk_score > 223.5 ∧ current_address_months_count > 19.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.27992871403694153 ∧ intended_balcon_amount <= 12.495099067687988 ∧ credit_risk_score > 223.5 ∧ current_address_months_count > 19.5 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ current_address_months_count <= 131.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22357317060232162 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.27992871403694153 ∧ intended_balcon_amount <= 12.495099067687988 ∧ credit_risk_score <= 223.5 ∧ customer_age > 55.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ email_is_free > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ credit_risk_score > 306.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.27992871403694153 ∧ credit_risk_score > 246.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.27992871403694153 ∧ intended_balcon_amount <= 12.495099067687988 ∧ credit_risk_score <= 223.5 ∧ customer_age <= 55.0 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.27992871403694153 ∧ intended_balcon_amount <= 12.495099067687988 ∧ credit_risk_score > 223.5 ∧ current_address_months_count > 19.5 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ current_address_months_count > 131.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 142.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.27992871403694153 ∧ credit_risk_score <= 246.5 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.75
+Test Recall: 0.14341478882479575
+CART - SPLITS 30 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity <= 0.24846241623163223 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 7.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22836846858263016 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity <= 0.24846241623163223 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 7.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ payment_type_AC > 0.5 ∧ name_email_similarity <= 0.3187020272016525 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score > 198.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.38746213912963867 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.38746213912963867 ∧ has_other_cards <= 0.5 ∧ customer_age > 55.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.38746213912963867 ∧ has_other_cards <= 0.5 ∧ customer_age <= 55.0 ∧ credit_risk_score > 229.5 ∧ days_since_request <= 0.02563665248453617
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity > 0.24846241623163223 ∧ credit_risk_score > 260.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.38746213912963867 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score > 305.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity > 0.24846241623163223 ∧ credit_risk_score <= 260.5 ∧ income > 0.8499999940395355
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ name_email_similarity <= 0.24846241623163223 ∧ phone_home_valid > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ payment_type_AC > 0.5 ∧ name_email_similarity <= 0.3187020272016525 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score <= 198.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.38746213912963867 ∧ has_other_cards <= 0.5 ∧ customer_age <= 55.0 ∧ credit_risk_score > 229.5 ∧ days_since_request > 0.02563665248453617
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.38746213912963867 ∧ has_other_cards <= 0.5 ∧ customer_age <= 55.0 ∧ credit_risk_score <= 229.5
+Test Recall: 0.1451869216970143
+CART - SPLITS 40 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.373208612203598 ∧ current_address_months_count > 27.0 ∧ intended_balcon_amount <= 12.656682968139648 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.373208612203598 ∧ current_address_months_count > 27.0 ∧ intended_balcon_amount <= 12.656682968139648 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.228783018887043 ∧ payment_type_AC > 0.5 ∧ current_address_months_count > 44.5 ∧ phone_home_valid <= 0.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity > 0.228783018887043 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 201.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.373208612203598 ∧ credit_risk_score > 247.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.373208612203598 ∧ current_address_months_count > 27.0 ∧ intended_balcon_amount <= 12.656682968139648 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ device_distinct_emails_8w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.373208612203598 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.228783018887043 ∧ payment_type_AC <= 0.5 ∧ phone_home_valid <= 0.5 ∧ has_other_cards <= 0.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 301.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score <= 301.5 ∧ phone_home_valid <= 0.5 ∧ prev_address_months_count <= 3.0 ∧ name_email_similarity <= 0.49533386528491974
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count > 40.5 ∧ name_email_similarity <= 0.22317253798246384 ∧ proposed_credit_limit > 505.0 ∧ payment_type_AC > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session > 0.5 ∧ credit_risk_score <= 301.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.228783018887043 ∧ payment_type_AC > 0.5 ∧ current_address_months_count > 44.5 ∧ phone_home_valid <= 0.5 ∧ keep_alive_session > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity <= 0.373208612203598 ∧ current_address_months_count <= 27.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ keep_alive_session <= 0.5 ∧ name_email_similarity > 0.373208612203598 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w <= 1.5 ∧ bank_branch_count_8w <= 2.5
+Test Recall: 0.18068102849200834
+CART - SPLITS 40 - 1
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2287629023194313 ∧ bank_branch_count_8w <= 1.5 ∧ credit_risk_score > 272.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.357088565826416 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.223588727414608 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.357088565826416 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count > 48.5 ∧ credit_risk_score > 256.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.357088565826416 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count > 48.5 ∧ credit_risk_score <= 256.5 ∧ bank_branch_count_8w <= 4.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.2287629023194313 ∧ email_is_free > 0.5 ∧ credit_risk_score > 309.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity > 0.357088565826416 ∧ income <= 0.75 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ intended_balcon_amount <= -0.3271009773015976 ∧ credit_risk_score > 204.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity > 0.357088565826416 ∧ income > 0.75 ∧ prev_address_months_count <= 9.5 ∧ credit_risk_score > 147.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.357088565826416 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count > 48.5 ∧ credit_risk_score <= 256.5 ∧ bank_branch_count_8w > 4.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2287629023194313 ∧ bank_branch_count_8w <= 1.5 ∧ credit_risk_score <= 272.5 ∧ current_address_months_count > 50.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid <= 0.5 ∧ name_email_similarity <= 0.357088565826416 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count <= 48.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ intended_balcon_amount <= -0.3271009773015976 ∧ credit_risk_score <= 204.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.223588727414608 ∧ proposed_credit_limit <= 1700.0 ∧ current_address_months_count > 42.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 505.0
+Test Recall: 0.15263228053850955
+CART - SPLITS 40 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2627200782299042 ∧ proposed_credit_limit <= 1700.0 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 173.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2627200782299042 ∧ bank_branch_count_8w <= 2.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2627200782299042 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2627200782299042 ∧ bank_branch_count_8w > 2.5 ∧ current_address_months_count > 29.0 ∧ intended_balcon_amount <= 11.82315969467163 ∧ current_address_months_count <= 121.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2627200782299042 ∧ bank_branch_count_8w <= 2.5 ∧ proposed_credit_limit <= 1250.0 ∧ date_of_birth_distinct_emails_4w <= 5.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.21655508130788803 ∧ credit_risk_score > 252.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2627200782299042 ∧ bank_branch_count_8w > 2.5 ∧ current_address_months_count > 29.0 ∧ intended_balcon_amount <= 11.82315969467163 ∧ current_address_months_count > 121.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 302.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.2627200782299042 ∧ bank_branch_count_8w > 2.5 ∧ current_address_months_count > 29.0 ∧ intended_balcon_amount <= 11.82315969467163 ∧ current_address_months_count <= 121.5 ∧ keep_alive_session > 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2627200782299042 ∧ proposed_credit_limit <= 1700.0 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score > 246.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.21655508130788803 ∧ prev_address_months_count <= 8.5 ∧ payment_type_AC > 0.5 ∧ credit_risk_score > 150.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.2627200782299042 ∧ proposed_credit_limit <= 1700.0 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score <= 173.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ credit_risk_score <= 302.5 ∧ name_email_similarity <= 0.31712035834789276 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 38.5
+Test Recall: 0.1548177017875889
+CART - SPLITS 40 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.2235736846923828 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid > 0.5 ∧ customer_age > 55.0 ∧ phone_mobile_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35966043174266815 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= -0.2176910787820816 ∧ date_of_birth_distinct_emails_4w <= 6.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35966043174266815 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= -0.2176910787820816 ∧ date_of_birth_distinct_emails_4w > 6.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3198437988758087 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 38.5 ∧ payment_type_AC > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid > 0.5 ∧ customer_age <= 55.0 ∧ credit_risk_score > 267.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35966043174266815 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ keep_alive_session > 0.5 ∧ current_address_months_count > 31.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35966043174266815 ∧ phone_home_valid > 0.5 ∧ customer_age > 55.0 ∧ phone_mobile_valid > 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35966043174266815 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w <= 1.5 ∧ bank_branch_count_8w <= 2.5 ∧ email_is_free > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35966043174266815 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount > -0.2176910787820816
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3198437988758087 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 38.5 ∧ payment_type_AC <= 0.5
+Test Recall: 0.18033356497567754
+CART - SPLITS 40 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.34053075313568115 ∧ intended_balcon_amount <= 11.789208889007568 ∧ current_address_months_count > 27.5 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 4.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22370850294828415 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.34053075313568115 ∧ intended_balcon_amount <= 11.789208889007568 ∧ current_address_months_count > 27.5 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 4.5 ∧ name_email_similarity <= 0.24823378771543503
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22370850294828415 ∧ proposed_credit_limit <= 1700.0 ∧ current_address_months_count > 42.5 ∧ phone_home_valid <= 0.5 ∧ email_is_free > 0.5 ∧ payment_type_AC > 0.5 ∧ credit_risk_score > 130.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.34053075313568115 ∧ proposed_credit_limit > 1950.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.34053075313568115 ∧ intended_balcon_amount <= 11.789208889007568 ∧ current_address_months_count > 27.5 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 4.5 ∧ proposed_credit_limit <= 1700.0 ∧ income > 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.34053075313568115 ∧ intended_balcon_amount <= 11.789208889007568 ∧ current_address_months_count > 27.5 ∧ phone_home_valid > 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ has_other_cards <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.34053075313568115 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.34053075313568115 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355 ∧ email_is_free > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.34053075313568115 ∧ intended_balcon_amount <= 11.789208889007568 ∧ current_address_months_count > 27.5 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 4.5 ∧ name_email_similarity > 0.24823378771543503
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.22264618426561356 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 49.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.34053075313568115 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score > 305.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.34053075313568115 ∧ intended_balcon_amount <= 11.789208889007568 ∧ current_address_months_count > 27.5 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w > 4.5 ∧ proposed_credit_limit <= 1700.0 ∧ income <= 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.34053075313568115 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w <= 2.5 ∧ income <= 0.8499999940395355 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.34053075313568115 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355 ∧ email_is_free <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.22264618426561356 ∧ customer_age > 55.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ income > 0.8499999940395355
+Test Recall: 0.17512161223071576
+CART - SPLITS 50 - 0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36343561112880707 ∧ current_address_months_count > 27.5 ∧ credit_risk_score > 229.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.2283710241317749 ∧ credit_risk_score > 284.5 ∧ date_of_birth_distinct_emails_4w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36343561112880707 ∧ current_address_months_count > 27.5 ∧ credit_risk_score <= 229.5 ∧ bank_branch_count_8w <= 2.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1950.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3172471523284912 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score <= 183.5 ∧ velocity_4w > 5419.155517578125 ∧ name_email_similarity <= 0.045366195961833
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36343561112880707 ∧ current_address_months_count > 27.5 ∧ credit_risk_score > 229.5 ∧ device_distinct_emails_8w <= 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity > 0.2283710241317749 ∧ credit_risk_score <= 284.5 ∧ customer_age <= 55.0 ∧ prev_address_months_count <= 3.0 ∧ bank_branch_count_8w <= 1.5 ∧ phone_home_valid <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36343561112880707 ∧ credit_risk_score > 246.5 ∧ income <= 0.6500000059604645 ∧ date_of_birth_distinct_emails_4w <= 4.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3172471523284912 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score > 183.5 ∧ bank_branch_count_8w <= 4.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36343561112880707 ∧ current_address_months_count > 27.5 ∧ credit_risk_score <= 229.5 ∧ bank_branch_count_8w <= 2.5 ∧ date_of_birth_distinct_emails_4w > 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36343561112880707 ∧ credit_risk_score <= 246.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36343561112880707 ∧ credit_risk_score > 246.5 ∧ income > 0.6500000059604645 ∧ current_address_months_count > 36.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.3172471523284912 ∧ credit_risk_score > 307.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.2283710241317749 ∧ credit_risk_score <= 250.5 ∧ current_address_months_count > 42.5 ∧ payment_type_AC > 0.5 ∧ income > 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36343561112880707 ∧ current_address_months_count > 27.5 ∧ credit_risk_score <= 229.5 ∧ bank_branch_count_8w > 2.5 ∧ income > 0.8499999940395355
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36343561112880707 ∧ credit_risk_score <= 246.5 ∧ device_distinct_emails_8w <= 1.5 ∧ bank_branch_count_8w <= 4.5 ∧ prev_address_months_count <= 3.5 ∧ income > 0.75
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.2283710241317749 ∧ credit_risk_score > 250.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.3172471523284912 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score <= 183.5 ∧ velocity_4w > 5419.155517578125 ∧ name_email_similarity > 0.045366195961833
+Test Recall: 0.18936761640027797
+CART - SPLITS 50 - 1
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22361844778060913 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0 ∧ date_of_birth_distinct_emails_4w <= 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 1250.0 ∧ income > 0.2500000074505806
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid > 0.5 ∧ email_is_free > 0.5 ∧ phone_mobile_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w > 2.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ prev_address_months_count <= 4.0 ∧ phone_home_valid <= 0.5 ∧ foreign_request > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 1250.0 ∧ income <= 0.2500000074505806
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w > 2.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 38.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.33468233048915863 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.33468233048915863 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score > 250.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 3.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w > 2.5 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 38.5 ∧ keep_alive_session > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.22396167367696762 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 39.5 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22361844778060913 ∧ proposed_credit_limit <= 1700.0 ∧ current_address_months_count > 42.5 ∧ payment_type_AC > 0.5 ∧ credit_risk_score > 150.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0 ∧ date_of_birth_distinct_emails_4w > 2.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.33468233048915863 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score <= 250.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 203.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w > 2.5 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ prev_address_months_count <= 4.0 ∧ phone_home_valid <= 0.5 ∧ foreign_request <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.33468233048915863 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score > 250.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity <= 0.33468233048915863 ∧ bank_branch_count_8w <= 2.5 ∧ phone_home_valid > 0.5 ∧ email_is_free > 0.5 ∧ phone_mobile_valid > 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score <= 203.5 ∧ name_email_similarity > 0.24857891350984573 ∧ days_since_request <= 0.0004607230512192473
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ name_email_similarity > 0.33468233048915863 ∧ proposed_credit_limit <= 1700.0 ∧ credit_risk_score <= 250.5 ∧ device_distinct_emails_8w <= 1.5 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355
+Test Recall: 0.18693537178596248
+CART - SPLITS 50 - 2
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score > 302.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2277185171842575 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 44.0 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1750.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 16.5 ∧ income > 0.6500000059604645
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.2936454266309738 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 4.5 ∧ email_is_free > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.2936454266309738 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score > 191.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.2936454266309738 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w <= 4.5 ∧ email_is_free <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2277185171842575 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 44.0 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score > 188.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit <= 1750.0 ∧ name_email_similarity <= 0.2143668830394745 ∧ bank_months_count > 29.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ current_address_months_count > 16.5 ∧ income <= 0.6500000059604645
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score <= 302.5 ∧ income > 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.2277185171842575 ∧ credit_risk_score > 310.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ bank_branch_count_8w > 2.5 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 30.5 ∧ current_address_months_count <= 155.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count > 40.5 ∧ name_email_similarity <= 0.2231067717075348 ∧ payment_type_AC > 0.5 ∧ credit_risk_score > 133.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.2936454266309738 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w <= 1.5 ∧ bank_branch_count_8w <= 2.5 ∧ email_is_free > 0.5 ∧ income > 0.6500000059604645 ∧ session_length_in_minutes <= 9.913565635681152
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ bank_branch_count_8w <= 2.5 ∧ credit_risk_score <= 302.5 ∧ income <= 0.75
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.2936454266309738 ∧ credit_risk_score > 247.5 ∧ keep_alive_session <= 0.5 ∧ has_other_cards <= 0.5 ∧ date_of_birth_distinct_emails_4w > 4.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity > 0.2936454266309738 ∧ credit_risk_score <= 247.5 ∧ device_distinct_emails_8w > 1.5 ∧ credit_risk_score <= 191.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.2277185171842575 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 44.0 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score <= 188.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ name_email_similarity <= 0.2936454266309738 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ has_other_cards <= 0.5 ∧ bank_branch_count_8w > 2.5 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 30.5 ∧ current_address_months_count > 155.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ current_address_months_count > 40.5 ∧ name_email_similarity <= 0.2231067717075348 ∧ payment_type_AC <= 0.5 ∧ credit_risk_score > 245.5
+Test Recall: 0.19075747046560113
+CART - SPLITS 50 - 3
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ credit_risk_score <= 178.5 ∧ current_address_months_count <= 107.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0 ∧ phone_home_valid <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ credit_risk_score > 178.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0 ∧ phone_home_valid > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0 ∧ name_email_similarity <= 0.4668271541595459
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35961440205574036 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ credit_risk_score > 242.5 ∧ employment_status_CB <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0 ∧ income > 0.8499999940395355 ∧ current_address_months_count <= 152.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35961440205574036 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355 ∧ velocity_24h > 4372.08837890625
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 1250.0 ∧ intended_balcon_amount <= 37.23158073425293
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0 ∧ income > 0.8499999940395355 ∧ current_address_months_count > 152.0 ∧ payment_type_AC > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35961440205574036 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.19624687731266022 ∧ bank_branch_count_8w <= 1.5 ∧ current_address_months_count > 49.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.19624687731266022 ∧ credit_risk_score > 312.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w <= 2.5 ∧ credit_risk_score <= 178.5 ∧ current_address_months_count > 107.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid > 0.5 ∧ keep_alive_session <= 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0 ∧ income > 0.8499999940395355 ∧ current_address_months_count > 152.0 ∧ payment_type_AC <= 0.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit <= 1250.0 ∧ income <= 0.8499999940395355
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ device_distinct_emails_8w <= 1.5 ∧ name_email_similarity <= 0.22843673080205917 ∧ current_address_months_count > 41.5 ∧ credit_risk_score > 250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.35961440205574036 ∧ current_address_months_count > 27.0 ∧ date_of_birth_distinct_emails_4w > 2.5 ∧ phone_home_valid <= 0.5 ∧ proposed_credit_limit > 1250.0 ∧ intended_balcon_amount > 37.23158073425293
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0 ∧ name_email_similarity > 0.4668271541595459
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.35961440205574036 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ credit_risk_score <= 242.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit <= 1700.0 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.19624687731266022 ∧ credit_risk_score <= 312.0 ∧ email_is_free > 0.5 ∧ bank_branch_count_8w <= 0.5
+Test Recall: 0.17755385684503128
+CART - SPLITS 50 - 4
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 13.054561138153076 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ days_since_request <= 0.0054815541952848434
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session > 0.5 ∧ credit_risk_score <= 261.0 ∧ customer_age > 55.0 ∧ days_since_request <= 0.031151953153312206
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 13.054561138153076 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score > 307.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 13.054561138153076 ∧ date_of_birth_distinct_emails_4w <= 3.5 ∧ days_since_request > 0.0054815541952848434
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit > 1750.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit > 1950.0 ∧ velocity_24h > 4613.956787109375
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355 ∧ prev_address_months_count <= 18.5 ∧ credit_risk_score > 265.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 13.054561138153076 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ phone_home_valid <= 0.5 ∧ credit_risk_score <= 307.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.19590485095977783 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 49.5 ∧ payment_type_AC > 0.5 ∧ proposed_credit_limit > 1250.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity > 0.19590485095977783 ∧ keep_alive_session <= 0.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit > 1950.0 ∧ velocity_24h <= 4613.956787109375
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w > 1.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session > 0.5 ∧ credit_risk_score > 261.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit <= 1700.0 ∧ current_address_months_count > 40.5 ∧ name_email_similarity <= 0.22308649867773056 ∧ payment_type_AC > 0.5 ∧ credit_risk_score > 150.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit <= 1750.0 ∧ name_email_similarity <= 0.2018488645553589 ∧ bank_months_count > 27.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w <= 2.5 ∧ income > 0.8499999940395355 ∧ prev_address_months_count <= 18.5 ∧ credit_risk_score <= 265.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows <= 0.5 ∧ name_email_similarity <= 0.19590485095977783 ∧ phone_home_valid <= 0.5 ∧ current_address_months_count > 49.5 ∧ payment_type_AC > 0.5 ∧ proposed_credit_limit <= 1250.0
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit <= 1700.0 ∧ current_address_months_count > 40.5 ∧ name_email_similarity <= 0.22308649867773056 ∧ payment_type_AC <= 0.5 ∧ has_other_cards <= 0.5 ∧ credit_risk_score > 250.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session <= 0.5 ∧ intended_balcon_amount <= 13.054561138153076 ∧ date_of_birth_distinct_emails_4w > 3.5 ∧ phone_home_valid > 0.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w > 2.5 ∧ device_distinct_emails_8w <= 1.5 ∧ credit_risk_score > 302.5
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w <= 1.5 ∧ proposed_credit_limit > 1700.0
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity <= 0.36349910497665405 ∧ keep_alive_session > 0.5 ∧ credit_risk_score <= 261.0 ∧ customer_age <= 55.0 ∧ income > 0.8499999940395355
+conds: housing_status_BA <= 0.5 ∧ device_os_windows > 0.5 ∧ device_distinct_emails_8w > 1.5 ∧ proposed_credit_limit <= 1750.0 ∧ name_email_similarity <= 0.2018488645553589 ∧ bank_months_count <= 27.5
+conds: housing_status_BA > 0.5 ∧ device_os_windows > 0.5 ∧ has_other_cards <= 0.5 ∧ name_email_similarity > 0.36349910497665405 ∧ proposed_credit_limit <= 1950.0 ∧ bank_branch_count_8w <= 2.5 ∧ income <= 0.8499999940395355
+Test Recall: 0.18102849200833912
+

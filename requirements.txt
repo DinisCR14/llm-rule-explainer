@@ -1,0 +1,23 @@
+# Core ML / NLP
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0        # 4-bit quantisation for large models (Linux/Windows only on GPU)
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+openpyxl>=3.1.0             # Excel file support (.xlsx)
+
+# Evaluation
+rouge-score>=0.1.2
+scikit-learn>=1.3.0         # cosine_similarity
+scipy>=1.11.0               # statistical utilities
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
