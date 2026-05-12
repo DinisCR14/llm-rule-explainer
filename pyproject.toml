@@ -41,8 +41,8 @@ dependencies = [
 aecd-run = "scripts.run_experiment:main"
 
 [project.urls]
-Homepage = "https://github.com/your-username/aecd"
-Issues = "https://github.com/your-username/aecd/issues"
+Homepage = "https://github.com/DinisCR14/llm-rule-explainer"
+Issues = "https://github.com/DinisCR14/llm-rule-explainer/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

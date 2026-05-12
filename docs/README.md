@@ -1,7 +1,7 @@
 # Supplementary Documents
 
 The academic report and presentation slides for this project are available as
-assets attached to the [GitHub Release](../../releases).
+assets attached to the [GitHub Release](https://github.com/DinisCR14/llm-rule-explainer/releases).
 
 | Document | Description |
 |---|---|

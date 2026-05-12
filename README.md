@@ -95,8 +95,8 @@ in the `scripts/` folder (see [CLI Scripts](#cli-scripts)).
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/aecd.git
-cd aecd
+git clone https://github.com/DinisCR14/llm-rule-explainer.git
+cd llm-rule-explainer
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -238,7 +238,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to report bugs, sug
 ## Reports & Slides
 
 The full technical report and presentation slides are available in the
-[Releases](../../releases) section of this repository.
+[Releases](https://github.com/DinisCR14/llm-rule-explainer/releases) section of this repository.
 See [docs/README.md](docs/README.md) for details.
 
 ---

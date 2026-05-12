@@ -49,8 +49,8 @@ Open an issue with the label **enhancement** and describe:
 
 ```bash
 # Fork and clone your fork
-git clone https://github.com/your-username/aecd.git
-cd aecd
+git clone https://github.com/DinisCR14/llm-rule-explainer.git
+cd llm-rule-explainer
 
 # Create a virtual environment
 python -m venv .venv
