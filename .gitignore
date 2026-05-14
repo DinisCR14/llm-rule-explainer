@@ -77,8 +77,9 @@ Images/
 # Dataset files (included in the repository)
 # baf_rulesets.txt and Allrules.xlsx live in data/ and are committed.
 
-# PDF reports (academic — not for public repo)
+# PDFs — ignore everywhere except the docs/ directory
 *.pdf
+!docs/*.pdf
 
 # macOS
 .DS_Store

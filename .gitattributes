@@ -1,0 +1,3 @@
+# Prevent Jupyter notebooks from dominating GitHub language statistics.
+# The repository is a Python project; notebooks are supplementary visualisations.
+*.ipynb linguist-detectable=false

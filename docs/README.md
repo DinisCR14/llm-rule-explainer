@@ -1,12 +1,8 @@
 # Supplementary Documents
 
-The academic report and presentation slides for this project are available as
-assets attached to the [GitHub Release](https://github.com/DinisCR14/llm-rule-explainer/releases).
+The technical report and presentation slides for this project are included in this directory.
 
-| Document | Description |
-|---|---|
-| `Report_AECD_G3.pdf` | Full technical report detailing methodology, experiments, and results |
-| `Presentation_AECD_G3.pdf` | Slide deck summarising the project |
-
-> **Note:** The PDF files are not tracked in version control. Download them
-> from the **Releases** page of this repository.
+| Document | File | Description |
+|----------|------|-------------|
+| Technical report | [`report.pdf`](report.pdf) | Full report detailing methodology, experiments, and results |
+| Presentation slides | [`slides.pdf`](slides.pdf) | Slide deck summarising the project |

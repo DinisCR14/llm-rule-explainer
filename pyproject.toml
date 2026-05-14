@@ -41,8 +41,8 @@ dependencies = [
 rulescribe-run = "scripts.run_experiment:main"
 
 [project.urls]
-Homepage = "https://github.com/DinisCR14/llm-rule-explainer"
-Issues = "https://github.com/DinisCR14/llm-rule-explainer/issues"
+Homepage = "https://github.com/DinisCR14/rulescribe"
+Issues = "https://github.com/DinisCR14/rulescribe/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]

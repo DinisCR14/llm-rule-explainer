@@ -39,7 +39,7 @@ The framework was developed for the [Bank Account Fraud (BAF)](https://github.co
 ## Project Structure
 
 ```
-llm-rule-explainer/
+rulescribe/
 ├── rulescribe/                     # Core Python package
 │   ├── __init__.py
 │   ├── data_utils.py            # Rule loading & train/test splitting
@@ -53,7 +53,9 @@ llm-rule-explainer/
 │   ├── Allrules.xlsx            # Annotated BAF rules (Rule / Description / Name)
 │   └── baf_rulesets.txt         # Raw BAF fraud-detection rule conditions
 ├── docs/
-│   └── README.md                # Links to report & slides (GitHub Releases)
+│   ├── README.md                # Document index
+│   ├── report.pdf               # Full technical report
+│   └── slides.pdf               # Presentation slides
 ├── notebooks/
 │   ├── results.ipynb            # ROUGE score visualisation
 │   └── plot_distributions.ipynb # Rule-set distribution plots
@@ -95,8 +97,8 @@ in the `scripts/` folder (see [CLI Scripts](#cli-scripts)).
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/DinisCR14/llm-rule-explainer.git
-cd llm-rule-explainer
+git clone https://github.com/DinisCR14/rulescribe.git
+cd rulescribe
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -237,9 +239,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to report bugs, sug
 
 ## Reports & Slides
 
-The full technical report and presentation slides are available in the
-[Releases](https://github.com/DinisCR14/llm-rule-explainer/releases) section of this repository.
-See [docs/README.md](docs/README.md) for details.
+The full technical report and presentation slides are included in this repository under [`docs/`](docs/).
+
+| Document | File |
+|----------|------|
+| Technical report | [`docs/report.pdf`](docs/report.pdf) |
+| Presentation slides | [`docs/slides.pdf`](docs/slides.pdf) |
 
 ---
 
