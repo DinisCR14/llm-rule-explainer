@@ -1,9 +1,9 @@
-# AECD – Automated Explanation of Credit Decisions
+# rulescribe – LLM-powered Rule Annotation
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-AECD is a research framework for automatically generating human-readable **names** and **descriptions** for fraud-detection rules using large language models. It implements and benchmarks four prompting strategies—zero-shot, few-shot, one-shot ranked by ROUGE, and one-shot ranked by structural similarity—and evaluates output quality with ROUGE metrics.
+**rulescribe** automatically generates human-readable **names** and **descriptions** for fraud-detection rules using prompt-engineered large language models. It implements and benchmarks four prompting strategies—zero-shot, few-shot, one-shot ranked by ROUGE, and one-shot ranked by structural similarity—and evaluates output quality with ROUGE metrics.
 
 The framework was developed for the [Bank Account Fraud (BAF)](https://github.com/feedzai/bank-account-fraud) dataset rule set and is designed to be straightforward to adapt to other rule sets.
 
@@ -29,7 +29,7 @@ The framework was developed for the [Bank Account Fraud (BAF)](https://github.co
 
 | Component | Description |
 |-----------|-------------|
-| `aecd/` | Core Python package |
+| `rulescribe/` | Core Python package |
 | `scripts/` | CLI scripts for running experiments and analysing rule distributions |
 | `data/` | BAF rule set text file |
 | `notebooks/` | Jupyter notebooks for result visualisation |
@@ -39,8 +39,8 @@ The framework was developed for the [Bank Account Fraud (BAF)](https://github.co
 ## Project Structure
 
 ```
-AECD/
-├── aecd/                        # Core Python package
+llm-rule-explainer/
+├── rulescribe/                     # Core Python package
 │   ├── __init__.py
 │   ├── data_utils.py            # Rule loading & train/test splitting
 │   ├── generator.py             # LLM pipeline factory
@@ -111,7 +111,7 @@ cp .env.example .env
 
 # 5. Run a quick zero-shot experiment (GPT-2, no GPU required)
 python -c "
-from aecd import split_rules_dataset, run_experiment
+from rulescribe import split_rules_dataset, run_experiment
 train, test = split_rules_dataset('data/Allrules.xlsx')
 run_experiment(train, test, strategy='zs', model='gpt2', n_test=5)
 "
@@ -151,7 +151,7 @@ Copy `.env.example` to `.env` and fill in the values:
 ### Programmatic API
 
 ```python
-from aecd import split_rules_dataset, run_experiment, get_rouge_recall_f1, plot_rouge_scores
+from rulescribe import split_rules_dataset, run_experiment, get_rouge_recall_f1, plot_rouge_scores
 
 # Load and split the rule set
 train_df, test_df = split_rules_dataset("data/Allrules.xlsx")
@@ -206,7 +206,7 @@ All strategies support an optional `step_by_step=True` flag that appends a chain
 Generated names and descriptions are scored with **ROUGE-1**, **ROUGE-2**, and **ROUGE-L** against ground-truth annotations. Results are saved as JSON files and can be visualised with the built-in plotting utilities.
 
 ```python
-from aecd import get_rouge_recall_f1, plot_rouge_scores
+from rulescribe import get_rouge_recall_f1, plot_rouge_scores
 
 recall, f1 = get_rouge_recall_f1(["Results/zs_gpt2.json", "Results/fs_gpt2.json"])
 plot_rouge_scores(recall, f1, labels=["ZS", "FS"], model="gpt2")

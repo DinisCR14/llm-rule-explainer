@@ -1,4 +1,4 @@
-# Contributing to AECD
+# Contributing to rulescribe
 
 Thank you for taking the time to contribute! This document explains how to
 report bugs, propose features, and submit pull requests.
@@ -84,7 +84,7 @@ cp .env.example .env
    git checkout -b feat/my-feature
    ```
 2. Make your changes, keeping commits small and focused.
-3. Ensure the code is importable and the notebooks can still find `from aecd import *`.
+3. Ensure the code is importable and the notebooks can still find `from rulescribe import *`.
 4. Push to your fork and open a pull request against `main`.
 5. Fill in the pull request template, linking the related issue.
 

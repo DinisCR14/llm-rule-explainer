@@ -170,7 +170,7 @@ def get_rouge_recall_f1(
     """Read JSON result files and extract ROUGE recall and F1 score lists.
 
     Each JSON file is expected to follow the structure written by
-    :func:`~aecd.prompting.run_experiment`.
+    :func:`~rulescribe.prompting.run_experiment`.
 
     Parameters
     ----------

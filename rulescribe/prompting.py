@@ -60,7 +60,7 @@ def zero_shot(
     rule:
         Fraud-detection rule condition string.
     generator:
-        Hugging Face text-generation pipeline (see :mod:`aecd.generator`).
+        Hugging Face text-generation pipeline (see :mod:`rulescribe.generator`).
     step_by_step:
         Append a chain-of-thought cue when *True*.
 

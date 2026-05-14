@@ -1,6 +1,6 @@
 """Experiment orchestration: shot-count search and full combination runs.
 
-Run this script directly to reproduce the full AECD experimental pipeline:
+Run this script directly to reproduce the full rulescribe experimental pipeline:
 
     python scripts/run_experiment.py
 
@@ -16,10 +16,10 @@ import sys
 
 import pandas as pd
 
-# Allow `from aecd import ...` when running this script directly
+# Allow `from rulescribe import ...` when running this script directly
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
-from aecd import (
+from rulescribe import (
     get_rouge_recall_f1,
     plot_rouge_scores_combined,
     run_experiment,
@@ -44,7 +44,7 @@ def get_best_number_of_shots(
     Parameters
     ----------
     train_df, test_df:
-        Rule DataFrames produced by :func:`~aecd.split_rules_dataset`.
+        Rule DataFrames produced by :func:`~rulescribe.split_rules_dataset`.
     temperatures:
         Sampling temperatures to evaluate.
     model:
@@ -170,7 +170,7 @@ def run_all_combinations(
 
 
 def main() -> None:
-    """Entry point: run the full AECD experimental pipeline."""
+    """Entry point: run the full rulescribe experimental pipeline."""
     train_df, test_df = split_rules_dataset()
 
     models = [

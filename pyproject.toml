@@ -3,9 +3,9 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.backends.legacy:build"
 
 [project]
-name = "aecd"
+name = "rulescribe"
 version = "0.1.0"
-description = "Automated Explanation of Credit Decisions using LLM prompting strategies"
+description = "LLM-powered automated annotation of fraud-detection rules using zero-shot, few-shot, and similarity-ranked one-shot prompting"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
@@ -38,7 +38,7 @@ dependencies = [
 ]
 
 [project.scripts]
-aecd-run = "scripts.run_experiment:main"
+rulescribe-run = "scripts.run_experiment:main"
 
 [project.urls]
 Homepage = "https://github.com/DinisCR14/llm-rule-explainer"
@@ -46,4 +46,4 @@ Issues = "https://github.com/DinisCR14/llm-rule-explainer/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["aecd*"]
+include = ["rulescribe*"]

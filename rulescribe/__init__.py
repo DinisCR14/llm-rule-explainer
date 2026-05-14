@@ -1,4 +1,4 @@
-"""AECD – Automated Explanation of Credit Decisions.
+"""rulescribe – LLM-powered annotation of fraud-detection rules.
 
 This package provides utilities for generating human-readable names and
 descriptions for fraud-detection rules using large language models, and
@@ -6,7 +6,7 @@ for evaluating those generations with ROUGE metrics.
 
 Typical usage
 -------------
->>> from aecd import load_generator, split_rules_dataset, run_experiment
+>>> from rulescribe import load_generator, split_rules_dataset, run_experiment
 >>> train_df, test_df = split_rules_dataset("data/Allrules.xlsx")
 >>> run_experiment(train_df, test_df, strategy="fs", model="gpt2")
 """
